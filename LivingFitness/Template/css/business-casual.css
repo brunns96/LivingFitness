@@ -20,6 +20,12 @@ p {
   margin: 0 auto;
 }
 
+.calendar-container {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 1);
+}
+
 .site-heading {
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -55,11 +61,12 @@ p {
     font-weight: 100;
 }
 .bg-faded {
-    background-color: rgba(255, 255, 255, .85);
+    background-color: rgba(255, 255, 255, .95);
 }
 #mainNav {
     background-color: #8130FF;
     font-family: Raleway;
+    opacity: .97
 }
 #mainNav .navbar-brand {
     color: #e6a756;
@@ -116,12 +123,13 @@ p {
     padding-top: 5rem;
     padding-bottom: 5rem;
     background-color: #e6a756;
+    opacity: .97;
 }
 .cta .cta-inner {
     position: relative;
     padding: 3rem;
     margin: .5rem;
-    background-color: rgba(255, 255, 255, .85);
+    background-color: rgba(255, 255, 255, .95);
 }
 .cta .cta-inner:before {
     border-radius: .5rem;
@@ -131,7 +139,7 @@ p {
     bottom: -.5rem;
     left: -.5rem;
     right: -.5rem;
-    border: .25rem solid rgba(255, 255, 255, .85);
+    border: .25rem solid rgba(255, 255, 255, .95);
 }
 @media (min-width:992px) {
     .about-heading .about-heading-img {
@@ -183,6 +191,7 @@ p {
 }
 .footer {
     background-color: #8130FF;
+    opacity: .97;
 }
 .text-primary {
     color: #e6a756!important;
