@@ -14,6 +14,12 @@ p {
 .text-faded {
     color: rgba(255, 255, 255, .3);
 }
+
+.intro-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
 .site-heading {
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -109,7 +115,7 @@ p {
 }.cta {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: rgba(255, 211, 28, .9);
+    background-color: #e6a756;
 }
 .cta .cta-inner {
     position: relative;
