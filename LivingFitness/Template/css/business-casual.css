@@ -1,6 +1,6 @@
 body {
     font-family: Lora;
-    background: linear-gradient(rgba(47, 23, 15, .65), rgba(47, 23, 15, .65)), url(../img/bg.JPG);
+    background: linear-gradient(rgba(91, 55, 255, .65), rgba(91, 55, 255, .65)), url(../img/bg.JPG);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -52,7 +52,7 @@ p {
     background-color: rgba(255, 255, 255, .85);
 }
 #mainNav {
-    background-color: rgba(47, 23, 15, .9);
+    background-color: #5B37FF;
     font-family: Raleway;
 }
 #mainNav .navbar-brand {
@@ -109,7 +109,7 @@ p {
 }.cta {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: rgba(230, 167, 86, .9);
+    background-color: rgba(255, 211, 28, .9);
 }
 .cta .cta-inner {
     position: relative;
@@ -176,7 +176,7 @@ p {
     font-size: 1.2rem;
 }
 .footer {
-    background-color: rgba(47, 23, 15, .9);
+    background-color: #5B37FF;
 }
 .text-primary {
     color: #e6a756!important;
