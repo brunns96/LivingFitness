@@ -1,7 +1,8 @@
 ﻿body {
 }
 .contact-form-container {
-    display:inline-block!important;    
+    /*display:inline-block!important;*/   
+    align-content:center; 
 }
 #contact-form-lower{
     padding-top:1em; 
@@ -11,4 +12,18 @@
 #contact-header-lower
 {
     padding-top:1em;
+}
+.container-contact-info {
+    align-content:center;
+}
+.contact-info{
+    width:30%;
+    margin-top: 10em;
+}
+.contact-form {
+    width:80%;
+    padding-left: 8em;
+}
+#cincinnati{
+    padding-left:18px;
 }
