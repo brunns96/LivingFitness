@@ -203,3 +203,59 @@ p {
 .selected{
     color: #e6a756!important;   
 }
+
+.logo-container
+{
+    float: left;
+    width: 171px;
+    margin-left: 10px;
+}
+
+.nav-header
+{
+    padding-top: 2em;
+    overflow: auto;
+}
+
+.nav-container
+{
+    float: left;
+    width: 149px;
+    margin-left: 10px;
+    font-family: Raleway;
+}
+
+.nav-item
+{
+    float: left;
+    width: 149px;
+    padding-bottom: 5px;
+}
+
+.nav-item a
+{
+    font-size: 20px;
+    color: white;
+}
+
+.nav-item a:hover
+{
+    text-decoration: none;
+    color: pink;
+}
+
+.nav-social
+{
+    float: right;
+    width: 149px;
+    margin-left: 10px;
+    font-family: Raleway;
+    color: white;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.social-icon
+{
+    padding-right: 10px;
+}
