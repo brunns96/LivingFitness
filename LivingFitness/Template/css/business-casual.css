@@ -259,3 +259,11 @@ p {
 {
     padding-right: 10px;
 }
+
+#map
+{
+    height: 400px;
+    width: 400px;
+    float: right;
+    margin-right: 10px;
+}
