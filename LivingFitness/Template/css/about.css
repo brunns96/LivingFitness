@@ -1,8 +1,23 @@
 ﻿body {
 }
 .container-left { 
-    width: 50%
+    width: 50%;
+    float:left;
+    padding-left: 2em;
 }
 .container-right { 
-    width: 50%
+    width: 50%;
+    float:left;
+    padding-right:2em;
+}
+.bio_pic_left{
+    margin: 0 auto;
+    width: 306px;
+}
+.bio_pic_right{
+    margin: 0 auto;
+    width: 342px;
+}
+.selected{
+    color: #e6a756!important;   
 }

@@ -52,7 +52,7 @@ p {
     background-color: rgba(255, 255, 255, .85);
 }
 #mainNav {
-    background-color: rgba(47, 23, 15, .9);
+    
     font-family: Raleway;
 }
 #mainNav .navbar-brand {
@@ -109,13 +109,12 @@ p {
 }.cta {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: rgba(230, 167, 86, .9);
 }
 .cta .cta-inner {
     position: relative;
     padding: 3rem;
     margin: .5rem;
-    background-color: rgba(255, 255, 255, .85);
+    background-color: white;
 }
 .cta .cta-inner:before {
     border-radius: .5rem;
@@ -176,7 +175,7 @@ p {
     font-size: 1.2rem;
 }
 .footer {
-    background-color: rgba(47, 23, 15, .9);
+    background-color: #1C3144;
 }
 .text-primary {
     color: #e6a756!important;
@@ -200,4 +199,7 @@ p {
 }
 .glyphicon:before {
   content: "\e182";
+}
+.selected{
+    color: #e6a756!important;   
 }

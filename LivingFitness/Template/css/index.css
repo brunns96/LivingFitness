@@ -1,0 +1,31 @@
+﻿body {
+}
+.logo {
+    float: left;
+    padding-left: 2em;
+}
+.header{
+    padding-top: 2em!important;
+}
+.intro-container { 
+    padding-top:2em;
+}
+.bg-color { 
+    background-color: #1C3144;
+}
+.intro-text {
+    color: white;
+}
+
+.intro-btn {
+    background-color:#FFB62B;
+    color: black;
+}
+
+.intro-middle {
+    background-color:#FFB62B
+}
+
+.intro-footer { 
+    color: white;
+}
