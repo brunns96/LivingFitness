@@ -13,20 +13,46 @@
 {
     padding-top:1em;
 }
+
 .container-contact-info {
     align-content:center;
 }
-.contact-info{
-    width:30%;
-    margin-top: 10em;
-}
+
 .contact-form {
     width:80%;
-    padding-left: 8em;
+    margin: 0 auto;
 }
 #cincinnati{
     padding-left:18px;
 }
-.nav-item{
-    padding-bottom:1em !important;
+
+.contact-left-side
+{
+    width: 50%;
+    float: left;
+}
+
+.contact-info-container
+{
+    background-color: white;
+    opacity: .95;
+    margin: 3em;
+}
+
+.contact-info
+{
+    width: 215px;
+    margin: 0 auto;
+    padding-top: 1em;
+}
+
+.map-container
+{
+    width: 50%;
+    float: left;
+}
+
+.contact-page-content
+{
+    overflow: auto;
 }
