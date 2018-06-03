@@ -280,3 +280,8 @@ p {
     font-size: 22px;
     font-weight: bold;
 }
+
+.wide-color
+{
+    background-color: #1C3144;
+}
