@@ -214,7 +214,7 @@ p {
 
 .nav-header
 {
-    padding-top: 2em;
+    padding-top: 1em;
     overflow: auto;
 }
 
@@ -226,10 +226,14 @@ p {
     font-family: Raleway;
 }
 
+.nav-list > .nav-item
+{
+    width: 149px;
+    float: left;
+}
+
 .nav-item
 {
-    float: left;
-    width: 149px;
     padding-bottom: 1em;
 }
 
@@ -248,7 +252,7 @@ p {
 .nav-social
 {
     float: right;
-    width: 149px;
+    width: 235px;
     margin-left: 10px;
     font-family: Raleway;
     color: white;
@@ -256,11 +260,23 @@ p {
     margin-right: 10px;
 }
 
+.nav-social > .nav-item
+{
+    float: right;
+}
+
+.facebook-style
+{
+    white-space: nowrap;
+}
+
 .social-icon
 {
     padding-right: 10px;
 }
-.number {
+
+.phone-number
+{
     font-size: 22px;
     font-weight: bold;
 }
