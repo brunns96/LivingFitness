@@ -20,13 +20,14 @@
 
 .contact-form {
     width:80%;
-    margin: 0 auto;
+    margin: 3em auto;
 }
+
 #cincinnati{
     padding-left:18px;
 }
 
-.contact-left-side
+.contact-page-column
 {
     width: 50%;
     float: left;
@@ -37,6 +38,7 @@
     background-color: white;
     opacity: .95;
     margin: 3em;
+    padding-bottom: 2em;
 }
 
 .contact-info
@@ -44,12 +46,6 @@
     width: 215px;
     margin: 0 auto;
     padding-top: 1em;
-}
-
-.map-container
-{
-    width: 50%;
-    float: left;
 }
 
 .contact-page-content
