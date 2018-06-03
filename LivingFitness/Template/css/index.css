@@ -58,3 +58,14 @@
     text-align:center;
     color: black !important;
 }
+
+.nav-item{
+    padding-bottom:1em !important;
+}
+.intro-header { 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+    font-size: 2.5rem !important;    
+}

@@ -97,3 +97,6 @@ p {
 h2,h3{ 
     color: #FFB62B;
 }
+.nav-item{
+    padding-bottom:1em !important;
+}

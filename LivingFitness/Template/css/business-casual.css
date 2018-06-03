@@ -1,6 +1,7 @@
 body {
     font-family: Lora;
-    background: linear-gradient(rgba(47, 23, 15, .65), rgba(47, 23, 15, .65)), url(../img/bg.JPG);
+    /*background: linear-gradient(rgba(47, 23, 15, .65), rgba(47, 23, 15, .65)), url(../img/bg.JPG);*/
+    background: url(../img/bg.JPG);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -229,7 +230,7 @@ p {
 {
     float: left;
     width: 149px;
-    padding-bottom: 5px;
+    padding-bottom: 1em;
 }
 
 .nav-item a
@@ -258,4 +259,8 @@ p {
 .social-icon
 {
     padding-right: 10px;
+}
+.number {
+    font-size: 22px;
+    font-weight: bold;
 }
