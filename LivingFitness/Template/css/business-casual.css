@@ -178,7 +178,8 @@ p {
     background-color: #1C3144;
 }
 .text-primary {
-    color: #e6a756!important;
+    color: #FFB62B!important;
+    font-weight: bold;
 }
 .bg-primary {
     background-color: #e6a756!important;
@@ -294,4 +295,22 @@ p {
 {
     width: 50%;
     float: left;
+}
+
+.prices-info-container {
+    padding-left:1em;
+}
+#prices-info-column {
+    width:25%;
+    float:left;
+}
+#calendar-column {
+    width:75%;
+    float:right;
+}
+.classes-page-content {
+    overflow:hidden;
+}
+.pricing-type {
+    font-weight:bold;
 }
