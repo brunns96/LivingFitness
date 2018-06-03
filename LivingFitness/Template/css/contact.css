@@ -27,12 +27,6 @@
     padding-left:18px;
 }
 
-.contact-page-column
-{
-    width: 50%;
-    float: left;
-}
-
 .contact-info-container
 {
     background-color: white;
@@ -46,9 +40,4 @@
     width: 215px;
     margin: 0 auto;
     padding-top: 1em;
-}
-
-.contact-page-content
-{
-    overflow: auto;
 }

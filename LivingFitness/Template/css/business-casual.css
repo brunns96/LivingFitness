@@ -284,3 +284,14 @@ p {
 {
     background-color: #1C3144;
 }
+
+.page-content
+{
+    overflow: auto;
+}
+
+.page-column
+{
+    width: 50%;
+    float: left;
+}
