@@ -1,0 +1,44 @@
+﻿#mobile-calendar {
+        display:none;
+    }
+@media(max-width:750px) {
+    .nav-social {
+        float: none !important;
+        text-align: left !important;
+    }
+
+    .nav-social > .nav-item {
+        float: none !important;
+        padding-bottom: 0 !important;
+    }
+    #prices-info-column { 
+        width: 100%;
+         float:none;
+         padding-top:1em;
+    }
+    #calendar-column { 
+        width: 100%;
+        float:none;
+    }
+    #desktop-calendar {
+        display:none;
+    }
+
+    #mobile-calendar {
+        display:block;
+        margin: 0 auto;
+        width: 300px;
+    }
+    .container {
+        padding-right:0;
+        padding-left:0;
+
+    }
+}
+@media(max-width:320px)
+{ 
+    .p-5 { 
+        padding: 0 !important;
+        text-align:center;
+    }
+}
