@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+}
+
+#gameboard {
+  width: 350px;
+  margin: auto;
+}
+
+.tile {
+  margin: 2px;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  float: left;
+  text-align: center;
+}
+
+.tile > img {
+  padding-top: 25px;
+  height: 50%;
+  width: auto;
+  margin: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  margin-bottom: 25px;
+}
