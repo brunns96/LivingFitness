@@ -1,6 +1,6 @@
 body {
     font-family: Lora;
-    background: url(../img/bg.JPG);
+    background: url(../img/bg.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -106,7 +106,8 @@ p {
 }@media (min-width:1200px) {
     .intro .intro-text {
     width: 45%}
-}.cta {
+}
+ .cta {
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
@@ -291,11 +292,7 @@ p {
     overflow: auto;
 }
 
-.page-column
-{
-    width: 50%;
-    float: left;
-}
+
 
 .prices-info-container {
     padding-left:1em;

@@ -27,7 +27,8 @@ const ctx = canvas.getContext("2d");
 let checkedSquares = [];
 let pairCount = 0;
 let gameWon = false;
-let clicks = 0; 
+let clickForPair = 0;
+let totalClickCount = 0;
 function drawEmptyBoard() {
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -204,7 +205,7 @@ canvas.addEventListener("click", function (event) {
 
     // Figure out which square was clicked
     const clickedSquare = getClickedSquare(x, y);
-
+    totalClickCount +=1;
     console.log(`Clicked square ${clickedSquare}`);
     
     if (clickedSquare === -1) {
@@ -216,8 +217,8 @@ canvas.addEventListener("click", function (event) {
         return;
     }
     else {
-        clicks +=1;
-        if(clicks === 1)
+        clickForPair +=1;
+        if(clickForPair === 1)
         {
             checkedSquares.push(clickedSquare.idx);
             firstChoice = clickedSquare;
@@ -232,12 +233,12 @@ canvas.addEventListener("click", function (event) {
             return;
         }
         if(isMatch(firstChoice.value, secondChoice.value) === true) {
-            clicks = 0;
+            clickForPair = 0;
             pairCount +=1;
             if(pairCount === 3)
             { 
                 setTimeout(function () {                    
-                    alert('YOU WON!');
+                    alert('YOU WON! It took you ' + totalClickCount + ' clicksto complete the game!');
                     location.reload();
                 }, 200);
             }
@@ -258,7 +259,7 @@ canvas.addEventListener("click", function (event) {
             //game hasnt been won yet... reset squares that are wrongly picked            
             checkedSquares.pop();
             checkedSquares.pop();            
-            clicks = 0;
+            clickForPair = 0;
             setTimeout(function () {               
                                         
                 fillAppropriateSquare(3,firstChoice.idx)
